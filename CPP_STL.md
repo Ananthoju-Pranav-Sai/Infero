@@ -77,6 +77,49 @@ Output :
 Array is empty
 0 0 0 0 0 0 0
 ```
+#### **String** :
+Strings are objects that represent stream of characters. Advantage of using strings instead of character arrays is, memory is allocated dynamically in string.
+
+#### Operations on string :-
+1. **begin** - returns an iterator pointing to the first element in the string.
+2. **end** - returns an interator pointing to the last element in the string,
+3. **length()** - returns the length of the string.
+4. **push_back()** - used to input characters into the string from the back.
+5. **pop_back()** - used to delete last character from the string.
+6. **substr(pos,len)** - returns substring of the string starting from index 'pos' and of length 'len'.
+
+```
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+    string s = "Butterfli";
+    cout<<s<<"\n";
+
+    s.pop_back();
+    cout<<s<<"\n";
+
+    s.push_back('y');
+    cout<<s<<"\n";
+
+    int l = s.length();
+    cout<<"Length of the final string : "<<l<<"\n";
+    
+    string sub = s.substr(0,6);
+    cout<<sub<<"\n";
+}
+```
+Output :
+```
+Butterfli
+Butterfl
+Butterfly
+Length of the final string : 9
+Butter
+```
 #### **Vector** :
 Vectors are sequential containers representing arrays that can change in size or a dynamic array. Just like arrays, elements are stored in contiguous storage locations. In vectors, data is inserted at the end.
 
