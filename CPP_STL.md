@@ -81,12 +81,13 @@ Array is empty
 Strings are objects that represent stream of characters. Advantage of using strings instead of character arrays is, memory is allocated dynamically in string.
 
 #### Operations on string :-
-1. **begin** - returns an iterator pointing to the first element in the string.
-2. **end** - returns an interator pointing to the last element in the string,
+1. **begin()** - returns an iterator pointing to the first element in the string.
+2. **end()** - returns an interator pointing to the last element in the string,
 3. **length()** - returns the length of the string.
-4. **push_back()** - used to input characters into the string from the back.
-5. **pop_back()** - used to delete last character from the string.
-6. **substr(pos,len)** - returns substring of the string starting from index 'pos' and of length 'len'.
+4. **at(pos)** - returns character at 'pos' in the string.
+5. **push_back()** - used to input characters into the string from the back.
+6. **pop_back()** - used to delete last character from the string.
+7. **substr(pos,len)** - returns substring of the string starting from index 'pos' and of length 'len'.
 
 ```
 #include <iostream>
