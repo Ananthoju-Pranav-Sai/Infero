@@ -219,7 +219,9 @@ Deque or double ended queues are sequence containers which can be expanded and c
 
 Deque has all the functions for vector with an addition of :-
 1. **push_front()** - it pushes the elements into the deque from the front.
-2. **pop_front()** - it removes elements from the deque from the front.
+2. **push_back()** - it pushes the elements into the deque from the back.
+3. **pop_front()** - it removes elements from the deque from the front.
+4. **pop_back()** - it removes elements from the deque from the back.
 
 ```
 #include <iostream>
