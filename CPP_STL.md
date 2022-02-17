@@ -129,7 +129,7 @@ Vectors are sequential containers representing arrays that can change in size or
 2. **end()** - returns an iterator pointing to last element in the vector.
 3. **size()** - returns the number of elements in the vector.
 4. **push_back()** - it pushes the elements into the vector from the back.
-5. **pop_back** - it is used to remove elements from vector from the back.
+5. **pop_back()** - it is used to remove elements from vector from the back.
 6. **erase()** - it is used to remove elements from a container from the specified position or range.
 7. **clear()** - used to remove all elements from the vector.
 8. **resize(n)** - resizes the container so that it contains 'n' elements.
